@@ -1,0 +1,535 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+.road {
+    position: relative;
+}
+
+.road #img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+#getty {
+    width: 100%;
+}
+
+.road #word-road {
+    position: absolute;
+    font-size: 8vw;
+    color: rgb(58, 58, 58);
+    font-family: Arial, Helvetica, sans-serif;
+    top: 5vw;
+    left: 40vw;
+}
+
+.road #word-to {
+    position: absolute;
+    font-size: 8vw;
+    color: rgb(58, 58, 58);
+    font-family: Arial, Helvetica, sans-serif;
+    top: 33vw;
+    left: 33vw;
+}
+
+.road #word-the {
+    position: absolute;
+    font-size: 8vw;
+    color: rgb(58, 58, 58);
+    font-family: Arial, Helvetica, sans-serif;
+    top: 57vw;
+    left: 58vw;
+}
+
+.main {
+    height: 100vh;
+    font-size: 10.5vw;
+    font-family: Arial;
+    background-image: linear-gradient(to bottom left, rgb(136, 136, 255), blue);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.main #char-link {
+    text-decoration: none;
+    color: black;
+}
+
+/* Hover effect for mc letter */
+.mc {
+    position: relative;
+    display: inline-block;
+    transition-duration: 500ms;
+}
+
+.mc-content {
+    display: none;
+    position: absolute;
+    /* background-color: white; */
+    /* min-width: 160px; */
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    padding: 12px 16px;
+    z-index: 1;
+    font-size: 50px;
+    bottom: 100%;
+    border-radius: 10%;
+}
+
+.mc:hover {
+    padding-bottom: 50px;
+}
+
+.mc:hover .mc-content {
+    display: block;
+}
+
+/* Hover effect for ntr letter */
+.ntr {
+    position: relative;
+    display: inline-block;
+    transition-duration: 500ms;
+}
+
+.ntr-content {
+    display: none;
+    position: absolute;
+    /* background-color: white; */
+    /* min-width: 160px; */
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    padding: 12px 16px;
+    z-index: 1;
+    font-size: 50px;
+    bottom: 100%;
+    border-radius: 10%;
+}
+
+.ntr:hover {
+    padding-bottom: 50px;
+}
+
+.ntr:hover .ntr-content {
+    display: block;
+}
+
+/* Hover effect for wp letter */
+.wp {
+    position: relative;
+    display: inline-block;
+    transition-duration: 500ms;
+}
+
+.wp-content {
+    display: none;
+    position: absolute;
+    /* background-color: white; */
+    /* min-width: 160px; */
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    padding: 12px 16px;
+    z-index: 1;
+    font-size: 50px;
+    bottom: 100%;
+    border-radius: 10%;
+}
+
+.wp:hover {
+    padding-bottom: 50px;
+}
+
+.wp:hover .wp-content {
+    display: block;
+}
+
+/* Hover effect for co letter */
+.co {
+    position: relative;
+    display: inline-block;
+    transition-duration: 500ms;
+}
+
+.co-content {
+    display: none;
+    position: absolute;
+    /* background-color: white; */
+    /* min-width: 160px; */
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    padding: 12px 16px;
+    z-index: 1;
+    font-size: 50px;
+    bottom: 100%;
+    border-radius: 10%;
+}
+
+.co:hover {
+    padding-bottom: 50px;
+}
+
+.co:hover .co-content {
+    display: block;
+}
+
+/* Hover effect for fsao letter */
+.fsao {
+    position: relative;
+    display: inline-block;
+    transition-duration: 500ms;
+}
+
+.fsao-content {
+    display: none;
+    position: absolute;
+    /* background-color: white; */
+    /* min-width: 160px; */
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    padding: 12px 16px;
+    z-index: 1;
+    font-size: 50px;
+    bottom: 100%;
+    border-radius: 10%;
+}
+
+.fsao:hover {
+    padding-bottom: 50px;
+}
+
+.fsao:hover .fsao-content {
+    display: block;
+}
+
+/* Hover effect for utc letter */
+.utc {
+    position: relative;
+    display: inline-block;
+    transition-duration: 500ms;
+}
+
+.utc-content {
+    display: none;
+    position: absolute;
+    /* background-color: white; */
+    /* min-width: 160px; */
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    padding: 12px 16px;
+    z-index: 1;
+    font-size: 50px;
+    bottom: 100%;
+    border-radius: 10%;
+}
+
+.utc:hover {
+    padding-bottom: 50px;
+}
+
+.utc:hover .utc-content {
+    display: block;
+}
+
+/* Hover effect for kna letter */
+.kna {
+    position: relative;
+    display: inline-block;
+    transition-duration: 500ms;
+}
+
+.kna-content {
+    display: none;
+    position: absolute;
+    /* background-color: white; */
+    /* min-width: 160px; */
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    padding: 12px 16px;
+    z-index: 1;
+    font-size: 50px;
+    bottom: 100%;
+    border-radius: 10%;
+}
+
+.kna:hover {
+    padding-bottom: 50px;
+}
+
+.kna:hover .kna-content {
+    display: block;
+}
+
+/* Hover effect for bk letter */
+.bk {
+    position: relative;
+    display: inline-block;
+    transition-duration: 500ms;
+}
+
+.bk-content {
+    display: none;
+    position: absolute;
+    /* background-color: white; */
+    /* min-width: 160px; */
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    padding: 12px 16px;
+    z-index: 1;
+    font-size: 50px;
+    bottom: 100%;
+    border-radius: 10%;
+}
+
+.bk:hover {
+    padding-bottom: 50px;
+}
+
+.bk:hover .bk-content {
+    display: block;
+}
+
+/* Hover effect for sba letter */
+.sba {
+    position: relative;
+    display: inline-block;
+    transition-duration: 500ms;
+}
+
+.sba-content {
+    display: none;
+    position: absolute;
+    /* background-color: white; */
+    /* min-width: 160px; */
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    padding: 12px 16px;
+    z-index: 1;
+    font-size: 50px;
+    bottom: 100%;
+    right: 0;
+    border-radius: 10%;
+}
+
+.sba:hover {
+    padding-bottom: 50px;
+}
+
+.sba:hover .sba-content {
+    display: block;
+}
+
+/* Hover effect for dss letter */
+.dss {
+    position: relative;
+    display: inline-block;
+    transition-duration: 500ms;
+}
+
+.dss-content {
+    display: none;
+    position: absolute;
+    /* background-color: white; */
+    /* min-width: 160px; */
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    padding: 12px 16px;
+    z-index: 1;
+    font-size: 50px;
+    bottom: 100%;
+    right: 0;
+    border-radius: 10%;
+}
+
+.dss:hover {
+    padding-bottom: 50px;
+}
+
+.dss:hover .dss-content {
+    display: block;
+}
+
+/* Hover effect for ldd letter */
+.ldd {
+    position: relative;
+    display: inline-block;
+    transition-duration: 500ms;
+}
+
+.ldd-content {
+    display: none;
+    position: absolute;
+    /* background-color: white; */
+    /* min-width: 160px; */
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    padding: 12px 16px;
+    z-index: 1;
+    font-size: 50px;
+    bottom: 100%;
+    right: 0;
+    border-radius: 10%;
+}
+
+.ldd:hover {
+    padding-bottom: 50px;
+}
+
+.ldd:hover .ldd-content {
+    display: block;
+}
+
+/* Hover effect for jbr letter */
+.jbr {
+    position: relative;
+    display: inline-block;
+    transition-duration: 500ms;
+}
+
+.jbr-content {
+    display: none;
+    position: absolute;
+    /* background-color: white; */
+    /* min-width: 160px; */
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    padding: 12px 16px;
+    z-index: 1;
+    font-size: 50px;
+    bottom: 100%;
+    right: 0;
+    border-radius: 10%;
+}
+
+.jbr:hover {
+    padding-bottom: 50px;
+}
+
+.jbr:hover .jbr-content {
+    display: block;
+}
+
+/* Hover effect for eoal letter */
+.eoal {
+    position: relative;
+    display: inline-block;
+    transition-duration: 500ms;
+}
+
+.eoal-content {
+    display: none;
+    position: absolute;
+    /* background-color: white; */
+    /* min-width: 160px; */
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    padding: 12px 16px;
+    z-index: 1;
+    font-size: 50px;
+    bottom: 100%;
+    right: 0;
+    border-radius: 10%;
+}
+
+.eoal:hover {
+    padding-bottom: 50px;
+}
+
+.eoal:hover .eoal-content {
+    display: block;
+}
+
+/* Hover effect for sosc letter */
+.sosc {
+    position: relative;
+    display: inline-block;
+    transition-duration: 500ms;
+}
+
+.sosc-content {
+    display: none;
+    position: absolute;
+    /* background-color: white; */
+    /* min-width: 160px; */
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    padding: 12px 16px;
+    z-index: 1;
+    font-size: 50px;
+    bottom: 100%;
+    right: 0;
+    border-radius: 10%;
+}
+
+.sosc:hover {
+    padding-bottom: 50px;
+}
+
+.sosc:hover .sosc-content {
+    display: block;
+}
+
+/* Hover effect for bofs letter */
+.bofs {
+    position: relative;
+    display: inline-block;
+    transition-duration: 500ms;
+}
+
+.bofs-content {
+    display: none;
+    position: absolute;
+    /* background-color: white; */
+    /* min-width: 160px; */
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    padding: 12px 16px;
+    z-index: 1;
+    font-size: 50px;
+    bottom: 100%;
+    right: 0;
+    border-radius: 10%;
+}
+
+.bofs:hover {
+    padding-bottom: 50px;
+}
+
+.bofs:hover .bofs-content {
+    display: block;
+}
+
+/* Hover effect for tpi letter */
+.rolc {
+    position: relative;
+    display: inline-block;
+    transition-duration: 500ms;
+}
+
+.rolc-content {
+    display: none;
+    position: absolute;
+    /* background-color: white; */
+    /* min-width: 160px; */
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    padding: 12px 16px;
+    z-index: 1;
+    font-size: 50px;
+    bottom: 100%;
+    right: 0;
+    border-radius: 10%;
+}
+
+.rolc:hover {
+    padding-bottom: 50px;
+}
+
+.rolc:hover .rolc-content {
+    display: block;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    background: rgb(0, 0, 0);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #50504e86;
+    -webkit-border-radius: 1ex;
+    -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+}
+
+::-webkit-scrollbar-corner {
+    background: #000;
+}

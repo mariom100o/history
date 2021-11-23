@@ -1,0 +1,117 @@
+.body {
+    background-color: rgb(187, 133, 133);
+}
+
+.bar {
+    background-color: rgb(10, 10, 10);
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 100;
+}
+
+.bar #back-button {
+    float: left;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(112, 27, 27);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1vw;
+    transition-duration: 250ms;
+}
+
+.bar #back-button:hover {
+    background-color: white;
+    color: black;
+}
+
+.bar #nav-button {
+    float: right;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(112, 27, 27);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1vw;
+    transition-duration: 250ms;
+}
+
+.bar #nav-button:hover {
+    background-color: white;
+    color: black;
+}
+
+.bar #fake-nav-button {
+    float: right;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(112, 27, 27);
+    color: rgb(112, 27, 27);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1vw;
+}
+
+.bar #project-title{
+    color: white;
+    text-align: center;
+    font-size: 2.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.6vw;
+    white-space: nowrap;
+}
+
+.title {
+    text-align: center;
+}
+
+.title #header {
+    font-size: 2.1vw;
+    font-family: Arial;
+}
+
+.title #date {
+    font-size: 1.6vw;
+    font-style: italic;
+}
+
+#subheader {
+    font-size: 1.8vw;
+    font-family: Arial;
+    padding-top: 35px;
+}
+
+.content-wrapper {
+    padding-top: 70px;
+    text-align: center;
+}
+
+#info {
+    display: inline-block;
+    width: 36vw;
+    text-align: center;
+    word-break: break-word;
+    text-align: justify;
+    font-size: 1.25vw;
+    font-family: Arial;
+}
+
+.content-images {
+    position: absolute;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    background: rgb(0, 0, 0);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #50504e86;
+    -webkit-border-radius: 1ex;
+    -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+}
+
+::-webkit-scrollbar-corner {
+    background: #000;
+}
